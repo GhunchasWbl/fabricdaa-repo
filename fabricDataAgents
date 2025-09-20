@@ -1,0 +1,86 @@
+Microsoft Fabric Data Agents: Natural Language Data Querying
+This repository documents my hands-on completion of the "Chat with your data using Microsoft Fabric data agents" lab. The project demonstrates how to use AI-powered data agents to query data using natural language, eliminating the need for traditional query languages like SQL, DAX, or KQL.
+
+🚀 Overview
+Microsoft Fabric data agents enable users to interact with data in plain English, making data analytics accessible to technical and non-technical users alike. This exercise involved building an end-to-end data solution, from setting up a data warehouse to configuring an AI agent that translates natural language questions into optimized SQL queries.
+
+🔧 What Was Accomplished
+1. Workspace & Data Warehouse Setup
+Created a dedicated Microsoft Fabric workspace.
+
+Built a relational data warehouse and loaded a star schema sales dataset.
+
+Tables included:
+
+DimCustomer (customer information)
+
+DimDate (time-based attributes)
+
+DimProduct (product details)
+
+FactSalesOrder (sales transactions)
+
+2. Data Agent Configuration
+Built and configured a Fabric data agent named sales-data-agent.
+
+Connected the agent to the data warehouse, enabling schema understanding and relationship mapping.
+
+3. Natural Language Querying
+Asked questions in plain English, such as:
+
+"How many products did we sell by fiscal year?"
+
+"What are the top 10 most popular products?"
+
+"How much revenue did we make in FY 2022?"
+
+Observed how the data agent translated these questions into optimized SQL queries.
+
+Analyzed results with AI-generated insights and visualizations.
+
+4. Advanced Analysis
+Explored trends, geographic customer distribution, and time-based patterns.
+
+Validated the agent’s ability to handle complex joins, filters, and aggregations automatically.
+
+💡 Key Takeaways
+Democratized Data Access: Enabled non-technical users to derive insights without writing code.
+
+Transparency & Trust: Full visibility into generated SQL queries builds confidence in AI-driven results.
+
+Efficiency: Significantly reduced time-to-insight by bypassing manual query writing.
+
+Scalability: The solution can integrate additional data sources and handle evolving business questions.
+
+⚙️ Technical Highlights
+AI-Powered Code Generation: Copilot generated context-aware SQL from natural language prompts.
+
+Star Schema Optimization: Designed for efficient analytical querying.
+
+Fiscal Logic Handling: Correctly interpreted fiscal years starting in July.
+
+Multi-Table Joins: Automated joins across fact and dimension tables.
+
+🕒 Time Efficiency
+Completed in 12 minutes—showcasing the user-friendly interface and productivity boost offered by Microsoft Fabric and Copilot.
+
+🔗 Next Steps
+Explore custom instructions for industry-specific jargon.
+
+Integrate additional data sources (e.g., CRM, IoT streams).
+
+Embed data agent capabilities into Power BI reports or business applications.
+
+📞 Connect
+Interested in learning more or collaborating? Feel free to reach out!
+
+LinkedIn: [Your LinkedIn Profile URL]
+
+Email: sohail.ghunchas@gmail.com
+
+📁 Repository Structure
+text
+├── README.md                       # Project overview
+└── Fabric Data Agent Exercise.mp4  # Video demonstration (if applicable)
+🏷️ Tags
+#MicrosoftFabric #DataAgents #AI #NaturalLanguageProcessing #DataDemocratization #DataAnalytics #DataEngineering #TechUpskill
