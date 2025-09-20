@@ -1,6 +1,6 @@
-# Ghunchas Work-Based Learning UK
+# Ghunchas
 
-Ghunchas Work-Based Learning UK delivers end-to-end technology services, specializing in Azure Data, AI & Security Solutions, Odoo ERP Implementation, and Work-Based Learning & Certifications. With 25+ years of experience, we help businesses grow through innovation and expert guidance.
+Ghunchas delivers end-to-end technology services, specializing in Azure Data, AI & Security Solutions, Odoo ERP Implementation, and Work-Based Learning & Certifications. With 25+ years of experience, we help businesses grow through innovation and expert guidance.
 
 ## Our Services
 
